@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "rodrigovallades.es7-react-js-snippets",
+    "dzhavat.bracket-pair-toggler",
+    "formulahendry.auto-rename-tag",
+    "xabikos.javascriptsnippets",
+    "tabnine.tabnine-vscode",
+    "esbenp.prettier-vscode"
+  ]
+}
