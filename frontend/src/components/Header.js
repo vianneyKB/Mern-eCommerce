@@ -8,7 +8,7 @@ const Header = () => {
         <Container>
             <Navbar.Brand href="/"> ecommerce </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
+            {/* <Navbar.Collapse id="basic-navbar-nav"> */}
                 <Nav className="ml-auto">
                     <Nav.Link href="/cart">
                         <i className="fas fa-shopping-cart"> Cart </i>
@@ -17,7 +17,7 @@ const Header = () => {
                         <i className="fas fa-user"> Sign In </i>
                     </Nav.Link>
                 </Nav>
-            </Navbar.Collapse>
+            {/* </Navbar.Collapse> */}
         </Container>
     </Navbar>
     </header>
