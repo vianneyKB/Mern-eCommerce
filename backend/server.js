@@ -3,9 +3,9 @@ const products = require('./data/products')
 
 const app = express()
 
-// app.get('/', (req, res) => {
-//     res.send('API is runing...')
-// })
+app.get('/', (req, res) => {
+    res.send('API is runing...')
+})
 
 // creating a root to get data by _id
 app.get('/api/products', (req, res) => {
